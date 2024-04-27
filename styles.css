@@ -1,0 +1,70 @@
+body
+{
+    background-color: darkslategrey;
+    color: aliceblue;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+}
+
+.icon
+{
+    width: 8vh;
+    height: 8vh;
+    margin: 4vh;
+    animation: fadeIn 3s;
+}
+
+.large
+{
+    font-size: 8vw;
+}
+
+.container-centred
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container-rows
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-cols
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 4vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.titletext
+{
+    animation: fadeIn 1s;
+}
+
+.divider
+{
+    width: 80vw;
+    animation: scaleIn 0.5s;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@keyframes scaleIn {
+    0% { width: 0vw; opacity: 0; }
+    100% { width: 80vw; opacity: 1; }
+}
