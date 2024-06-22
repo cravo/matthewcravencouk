@@ -10,9 +10,9 @@ body
 
 .icon
 {
-    width: 8vw;
-    height: 8vw;
-    margin: 4vw;
+    width: 6vw;
+    height: 6vw;
+    margin: 2vw;
     animation: fadeIn 3s;
     animation-delay: 1s;
     animation-fill-mode: forwards;
@@ -21,7 +21,7 @@ body
 
 .large
 {
-    font-size: 8vw;
+    font-size: 6vw;
 }
 
 .container-centred
